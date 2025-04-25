@@ -1,10 +1,11 @@
 ul{
     background-color: burlywood;
-    margin: 0;
+    margin: -10px;
+    margin-bottom: 0px;
     padding: 0;
     list-style-type: none;
     overflow: hidden;
-    width: 35%;
+    width: 100%;
 }
 li{
     float: left;
@@ -27,8 +28,11 @@ li a:hover{
     color: white;
     background-color: orangered;
 }
-p{
+p{  
+    border: 0%;
     background-color: skyblue;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px -10px 0px -10px;
+    padding: 10px;
 }
